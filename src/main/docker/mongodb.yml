@@ -1,0 +1,8 @@
+version: '2'
+services:
+  jdemo3-mongodb:
+    image: mongo:4.0.9
+    ports:
+      - '27017:27017'
+    # volumes:
+    #     - ~/volumes/jhipster/jdemo3/mongodb/:/data/db/
